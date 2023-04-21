@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 40px auto;
+  max-width: 500px;
+  width: 100%;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input,
+textarea,
+button {
+  display: block;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  resize: none;
+}
+
+button {
+  background-color: cornflowerblue;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+  font-style: oblique;
+  cursor: grab;
+}
+
+button:hover {
+  background-color: rgb(42, 97, 201);
+}
+.menssagemValida {
+  background-color: #006e2e;
+  padding: 16px;
+  color: white;
+  display: none;
+}
+
+.menssagemNaoValida {
+  background-color: #e01111;
+  padding: 16px;
+  color: white;
+  display: none;
+}
